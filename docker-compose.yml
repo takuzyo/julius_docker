@@ -1,0 +1,7 @@
+version: '3'
+services:
+    julius:
+        build: .
+        tty: true
+        ports:
+            - 10500:10500
